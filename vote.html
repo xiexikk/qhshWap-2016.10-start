@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>会员投票</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/base.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="in pd">
+        <div class="logo fl" style="background-image:url(images/logo.png);">
+            <h1><a href="index.html" title="清化商会">清化商会</a></h1>
+        </div>
+        <div class="fr topNav"></div>
+    </div>
+</header>
+
+<section class="vote">
+    <div class="in">
+        <div class="hdTi">
+            <span class="ti">会员投票</span>
+        </div>
+        <div class="con">
+            <div class="hd">
+                <div class="tp">
+                    <img src="images/tx.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h3>忍者神龟2：破影而出 (2016)</h3>
+                    <p class="explain">
+                        <span class="time">1天前</span>
+                        <span class="read">100</span>
+                        <span class="author">哗啦啦</span>
+                    </p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="pic">
+                    <img src="images/tpxx.jpg" alt="">
+                </div>
+                <p>导演: 戴夫·格林</p>
+                <p>编剧: 乔什·阿佩尔鲍姆 / 安德烈·内梅克</p>
+                <p>主演: 梅根·福克斯 / 斯蒂芬·阿梅尔 / 威尔·阿奈特 / 皮特·普劳泽克 / 阿兰·里奇森 / 杰瑞米·霍华德 / 诺尔·费舍 / 布莱恩·泰 / 泰勒·派瑞 / 约翰尼·诺克斯维尔 / 托尼·夏尔赫布 /
+                    弗莱德·阿米森 / 劳拉·琳妮 / 亚历桑德拉·安布罗休 / 威廉·菲德内尔 / 丹尼·伍德伯恩 / 茱蒂斯·哈格 / 加里·安东尼·威廉斯
+                </p>
+                <p>类型: 喜剧 / 动作 / 科幻 / 奇幻 / 冒险</p>
+                <p>官方网站: www.teenagemutantninjaturtlesmovie.com</p>
+                <p>制片国家/地区: 美国</p>
+                <p>语言: 英语</p>
+                <p>上映日期: 2016-07-02(中国大陆) / 2016-06-03(美国)</p>
+                <p>片长: 113分钟</p>
+                <p>又名: 忍者龟：魅影突击(港) / 忍者龟：破影而出(台) / 忍者神龟2 / 真人版忍者神龟2 / Teenage Mutant Ninja Turtles 2</p>
+                <p>简介: 城市在恢复平静后，大反派重新召集旧部卷土重来，并勾结外星恶势力朗格试图称霸地球，忍者神龟莱昂纳多（皮特·普劳泽克 Pete Ploszek 饰）、拉斐尔（阿兰·里奇森 Alan Ritchson 饰）、多纳泰罗（杰瑞米·霍华德 Jeremy Howard 饰）和米开朗基罗（诺尔·费舍 Noel Fisher 饰）与女记者艾蓓丽尔·奥尼尔（梅根·福克斯 Megan Fox 饰）、韦恩·芬威克（威尔·阿奈特 Will Arnett 饰），及面具义警凯西·琼斯（斯蒂芬·阿梅尔 Stephen Amell 饰）并肩作战打击恶徒。在史莱德（布莱恩·泰 Brian Tee 饰）逃脱拘留后，他与疯狂的科学家巴克斯特斯·托克曼（泰勒·派瑞 Tyler Perry 饰）及其两个笨拙的左膀右臂猪面和牛头联合，发布了一个控制世界的恶魔计划。
+                    在神龟们与史莱德及其同伙对抗的同时，他们发现自己正面临着一个更邪恶的力量大反派格朗，神龟们面对的将是宇宙级的强大对手。
+                </p>
+            </div>
+            <form method="" action="">
+                <div class="grade" id="grade">
+                <ul>
+                    <li>
+                        <input id="pf05" name="Choice" type="radio" value="" checked>
+                        <label for="pf05">惊喜</label>
+                    </li>
+                    <li>
+                        <input id="pf04" name="Choice" type="radio" value="">
+                        <label for="pf04">满意</label>
+                    </li>
+                    <li>
+                        <input id="pf03" name="Choice" type="radio" value="">
+                        <label for="pf03">一般</label>
+                    </li>
+                    <li>
+                        <input id="pf02" name="Choice" type="radio" value="">
+                        <label for="pf02">不满</label>
+                    </li>
+                    <li>
+                        <input id="pf01" name="Choice" type="radio" value="" >
+                        <label for="pf01">失望</label>
+                    </li>
+                </ul>
+                <button type="button" class="sub">投票</button>
+            </div>
+            </form>
+            <!--投票成功后 start-->
+            <div class="grade gradeSuc" id="gradeSuc">
+                <ul>
+                    <li>
+                        <p>
+                            <span>惊喜</span>
+                            <small>（50.00%，50 票）</small>
+                        </p>
+                        <div class="pollbar" style="width: 50.00%;" title=""></div>
+                    </li>
+                    <li>
+                        <p>
+                            <span>满意</span>
+                            <small>（28.00%，28 票）</small>
+                        </p>
+                        <div class="pollbar" style="width: 28.00%;" title=""></div>
+                    </li>
+                    <li>
+                        <p>
+                            <span>一般</span>
+                            <small>（0.00%，0 票）</small>
+                        </p>
+                        <div class="pollbar" style="width: 0.00%;" title=""></div>
+                    </li>
+                    <li>
+                        <p>
+                            <span>不满</span>
+                            <small>（15.00%，15 票）</small>
+                        </p>
+                        <div class="pollbar" style="width: 15.00%;" title=""></div>
+                    </li>
+                    <li>
+                        <p>
+                            <span>失望</span>
+                            <small>（5.00%，5 票）</small>
+                        </p>
+                        <div class="pollbar" style="width:5.00%;" title=""></div>
+                    </li>
+                </ul>
+                <button type="button" class="rank">排名</button>
+                <p class="pollNum">总票数：<span>100</span></p>
+            </div>
+            <!--投票成功后 end-->
+
+            <nav class="turn">
+                <ul>
+                    <li class="prev fl"><a href="javascript:;">&lt;&lt;上一篇</a></li>
+                    <li class="next fr"><a href="javascript:;">下一篇&gt;&gt;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="navPop">
+    <div class="in">
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="introduce.html" class="item">
+                        <i></i><span>商会简介</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="newsInfor.html" class="item">
+                        <i></i><span>商会动态</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="demand.html" class="item">
+                        <i></i><span>商会商机</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="trade.html" class="item">
+                        <i></i><span>行业分类</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="charity.html" class="item">
+                        <i></i><span>慈善公益</span>
+                    </a>
+                <li>
+                    <a href="employ.html" class="item">
+                        <i></i><span>求职招聘</span>
+                    </a>
+                </li>
+                </li>
+                <li>
+                    <a href="organization.html" class="item">
+                        <i></i><span>组织结构</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="businessUnit.html" class="item">
+                        <i></i><span>事业部</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="vipService.html" class="item">
+                        <i></i><span>会员服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="teamBuying.html" class="item">
+                        <i></i><span>会员团购</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myCenter.html" class="item">
+                        <i></i><span>个人中心</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactUs.html" class="item">
+                        <i></i><span>联系我们</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(function(){
+        $('.sub').click(function(){
+            $('#grade').hide();
+            $('#gradeSuc').show();
+        })
+    })
+</script>
+
+</body>
+</html>
